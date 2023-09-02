@@ -24,12 +24,12 @@ const Contact = () => {
             placeholder="Type your message here..."
           ></textarea>
           <button type="Submit">Send</button>
-          {message ? (
-            <span className="confirm">Thank you for your interest!</span>
-          ) : (
-            ""
-          )}
         </form>
+        {message ? (
+          <span className="confirm">Thank you for your interest!</span>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
